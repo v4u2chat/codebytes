@@ -9,6 +9,9 @@ public class StringEncoding {
         System.out.println("Decoded String of 3[a2[c]] is >> "+decodeString("3[a2[c]]"));
         System.out.println("Decoded String of 2[abc]3[cd]ef is >> "+decodeString("2[abc]3[cd]ef"));
         System.out.println("Decoded String of abc3[cd]xyz is >> "+decodeString("abc3[cd]xyz"));
+
+      
+
     }
 
     private static String decodeString(String encodedString) {
